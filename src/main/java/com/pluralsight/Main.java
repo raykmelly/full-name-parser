@@ -18,6 +18,7 @@ public class Main {
         } else if (nameParts.length == 2) {
             // You only have a first, last name
             System.out.printf("First name: %s",nameParts[0]);
+            System.out.println("Middle name: (none)");
             System.out.printf("Last name: %s",nameParts[1]);
         }
     }
